@@ -20,19 +20,19 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Benjamin D. Etheredge
+title:                 Benjamin Etheredge
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  This site serves as a place for me to record and track my various projects.
+  This site serves as a place for me to record and track my various experiences and projects.
 
 
 # A shorter description for the sidebar.
 tagline:               Ben's Portfolio
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [machine learning, reinforcement learning, siamese networks]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -60,6 +60,8 @@ menu:
     url:               /resume/
   # - title:             Documentation
   #   url:               /docs/
+  - title:            About
+    url:               /about
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -342,6 +344,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jekyll-paginate
 
 
 # SEO Tag

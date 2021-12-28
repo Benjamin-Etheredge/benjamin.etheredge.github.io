@@ -24,7 +24,7 @@ sitemap: false
 # Project Gloves
 
 The original goal of the project was simple: Create a facial recognition system
-for my pets. It was named in ommage to one of my cats, Mr. Murder Mittens (picutred above).
+for my pets. It was named in ommage to one of my cats, Mr. Murder Mittens (pictured above).
 
 But it ended up taking many twists and turns and has not yet reached its end goal. 
 
@@ -37,7 +37,7 @@ for exploring next MLOps technologies.
 This was one of the first projects I adapted for Kubeflow. This was at a rare point 
 in time where the Kubeflow installation was still possible in one attempt.
 
-See <link> for my experience with Kubeflow. Spoiler alert, it was not positive.
+See [here](/blog/2021-12-27-kubeflow/) for my experience with Kubeflow. **Spoiler alert**, it was not positive.
 
 Since then, I have not been able to get a working version of Kubeflow 
 

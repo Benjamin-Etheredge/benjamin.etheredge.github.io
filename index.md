@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Benjamin D. Etheredge Portfolio Website
+title: Benjamin Etheredge Portfolio Website
 sitemap: false
 cover: true  # make landing page
 ---
