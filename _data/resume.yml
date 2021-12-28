@@ -146,6 +146,7 @@ skills:
       - "Deep-Q Variants"
       - "Proximal Policy Optimization (PPO)"
   - name: "Reinforcement Learning"
+    keywords:
       - "Deep Learning"
 
 languages:
