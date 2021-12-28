@@ -4,7 +4,7 @@ title: 'Pokemon Generation'
 caption: Generating Pokemon with different Machine Learning Methods
 description: >
   This project was for exploring generative algorithms along with MLOps technologies.
-date: '01-01-2021'
+date: '08-01-2021'
 image: 
   path: /assets/img/projects/hydejack-site.jpg
   srcset: 
