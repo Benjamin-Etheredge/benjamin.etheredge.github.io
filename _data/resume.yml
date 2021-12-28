@@ -36,19 +36,58 @@ basics:
       username: "Benjamin-Etheredge"
       url: ""
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Trideum Corporation"
+    position: "Senior Software Engineer"
+    website: "https://www.trideum.com/"
+    startDate: "2021-08-16"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      TODO 
+      add 
+      summary
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "Implementing and integrating software systems developed by University teams"
+      - "Providing insight and guidance on AI/ML for various teams and projects"
+  - company: "Auburn University / Davidson Technologies"
+    position: "Research Engineer"
+    website: "https://cws.auburn.edu/ovpr/pm/huntsville"
+    startDate: "2020-07-05"
+    endDate: "2021-08-16"
+    summary: >
+      TODO 
+      add 
+      summary
+    highlights:
+      - "Worked with domain experts to explore applicability of ML to various domains"
+      - "Researched, selected, and deployed relevant MLOps tools to fit team and customer needs"
+      - "Provided insight and guidance on AI/ML for various teams and projects"
+  - company: "Modern Technology Solutions, Inc."
+    position: "AI/ML Software Engineer"
+    website: "https://www.mtsi-va.com/"
+    startDate: "2019-04-01"
+    endDate: "2020-07-05"
+    summary: >
+      TODO 
+      add 
+      summary
+    highlights:
+      - "Provided Army customer with information and updates on emerging AI/ML technologies"
+      - "Researched applications and concerns of AI in the domain of airworthiness"
+  - company: "Raytheon Technologies (Formally Raytheon)"
+    position: "Software Engineer I/II"
+    website: "https://www.rtx.com/"
+    startDate: "2016-11-14"
+    endDate: "2019-04-01"
+    summary: >
+      TODO 
+      add 
+      summary
+    highlights:
+      - "Developed multiple new features for a command system using C++, test-driven development, and scrum"
+      - "Served as the team's code base expert at the test range for the command system"
+      - "Led independent research and development effort into applications of ML to custom compression"
+      - "Led effort to optimize CUDA application resulting in a 6x speedup over previous version."
+
 # volunteer:
 #   - organization: "CoderDojo"
 #     position: "Teacher"
@@ -82,9 +121,9 @@ education:
     startDate: "2011-08-01"
     endDate: "2016-05-01"
     #gpa: "3.62"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
+    #courses:
+      #- "DB1101 - Basic SQL"
+      #- "CS2011 - Java Introduction"
 # awards:
 #   - title: "Digital Compression Pioneer Award"
 #     date: "2014-11-01"
@@ -97,14 +136,15 @@ education:
 #     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
 #     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
-  - name: "Web Development"
+  - name: "Machine Learning"
     level: "Master"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
+      - "Deep Learning"
+      - "Reinforcement Learning"
+      - "Neural Networks"
+
   - name: "Compression"
-    level: "Master"
+    level: "Expert"
     keywords:
       - "Mpeg"
       - "MP4"
@@ -112,11 +152,16 @@ skills:
 languages:
   - language: "English"
     fluency: "Native speaker"
-# interests:
-#   - name: "Computer Science"
-#     keywords:
-#       - "Ferrets"
-#       - "Unicorns"
+interests:
+  - name: "Computer Hardware"
+    # keywords:
+    #   - "Homelab"
+    #   - "Personal Rig"
+  - name: "Gaming"
+    # keywords:
+    #   - "PC Gaming"
+    #   - "Console Gaming"
+  - name: "Ping Pong"
 # references:
 #   - name: "Erlich Bachman"
 #     reference: >
