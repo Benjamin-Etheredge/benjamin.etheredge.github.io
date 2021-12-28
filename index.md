@@ -2,11 +2,13 @@
 layout: page
 title: Benjamin D. Etheredge Portfolio Website
 sitemap: false
+cover: true  # make landing page
 ---
 
 Welcome to my personal portfolio site. 
 
 This site is still under heavy construction. 
+
 
 <!-- Thank you for buying the PRO version of Hydejack! 🎉
 
