@@ -144,7 +144,7 @@ volunteer:
 
   - organization: "2021 HudsonAlpha's Tech Challenge"
     position: "Mentor"
-    # website: "https://coderdojo.com/"
+    website: "https://hudsonalpha.org/techchallenge/"
     startDate: "2021-03-01"
     endDate: "2021-03-03"
     summary: "Served as a mentor on software for the HudsonAlpha's Tech Challenge"
@@ -155,7 +155,7 @@ volunteer:
 
   - organization: "2019 SpaceApps Challenge"
     position: "Competitor"
-    #website: "https://github.com/Benjamin-Etheredge/SpaceApps2019"
+    website: "https://github.com/Benjamin-Etheredge/SpaceApps2019"
     startDate: "2019-10-01"
     endDate: "2019-10-31"
     summary: "Led a small team in learning about data processing and building a simple application"
@@ -175,6 +175,8 @@ volunteer:
     startDate: "2014-01-01"
     endDate: "2014-01-31"
     summary: "Competed in the ICPC with 2 fellow students"
+    highlights:
+      - "Got humbled"
 
   - organization: "UNA CS Alumni" 
     position: "Mentor"
@@ -187,7 +189,7 @@ volunteer:
 
   - organization: "HSV-AI"
     position: "Organizer/Leader"
-    #website: "https://hsv.ai/"
+    website: "https://hsv.ai/"
     startDate: "2018-03-01"
     #endDate: "2013-01-01"
     summary: "Helping organize and lead weekly, local AI/ML interest group"
