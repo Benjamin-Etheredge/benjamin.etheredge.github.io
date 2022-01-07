@@ -28,6 +28,9 @@
           | replace:"<!--company-->", company
         }}
       </h3>
+      {% if work.startDate.size > 0 %}
+      <p class="faded"> {{ work.location }} </p>
+      {% endif %}
     </header>
 
     {% include components/message.html class="note" text=work.summary alt="" %}

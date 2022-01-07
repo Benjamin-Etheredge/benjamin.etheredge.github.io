@@ -41,7 +41,7 @@ keywords:              [machine learning, reinforcement learning, siamese networ
 logo:                  /assets/img/low-res-turt.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author:
+betheredge:
   # Used by `jekyll-feed`:
   name:                Benjamin Etheredge
   email:               benjamin.etheredge@gmail.com

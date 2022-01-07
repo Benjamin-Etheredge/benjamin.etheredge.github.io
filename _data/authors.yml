@@ -2,17 +2,20 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 betheredge:
-  name:              Benjamin Etheredge
+  name:              Ben Etheredge
   email:             benjamin.etheredge@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Ben is from Florence Alabama where he studied Computer Science at the Univserity of North Alabama.
-    He currently serves as a Senior Software Engineer at Trideum in Huntsville, Alabama.
-    His past roles include Research Engineer at Auburn University and AI/ML Software Engineer at MTSI.
+    I'm from Florence Alabama where I studied Computer Science at the University of North Alabama.
+    I currently serves as a Senior Software Engineer at Trideum in Huntsville, Alabama.
+    I'm also working on finishing out my Master's degree in Computer Science with a focus in machine learning
+    from Georgia Tech.
+    My past roles include Research Engineer at Auburn University and AI/ML Software Engineer at MTSI.
 
-    Open `_data/authors.yml` to edit this text.
+    THIS SITE IS CURRENTLY UNDER HEAVY DEVELOPMENT.
+
 
   # This photo will be used in the about section
   picture:
@@ -59,6 +62,7 @@ betheredge:
     # trello:          <firstnamelastname>
     linkedin:        benjamin-etheredge
     wandb:           benjamin-etheredge
+    dockerhub:           etheredgeb
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>

@@ -130,12 +130,14 @@ resume:
   volunteer:           Volunteer
   volunteer_title:     <!--position--> at <!--organization-->
   education:           Education
-  education_title:     <!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->
+  education_title:     <!--study_type--> in <!--area--> from <!--institution--> # with GPA of <!--gpa-->
   courses:             Courses
   awards:              Awards
   awards_title:        <!--title--> from <!--awarder-->
   publications:        Publications
   publications_title:  <!--name--> by <!--publisher-->
+  projects:            Projects
+  projects_title:      <!--name-->
   references:          References
   languages:           Languages
   fluency:             Fluency
@@ -162,6 +164,7 @@ resume:
     education:         icon-library
     awards:            icon-trophy
     publications:      icon-book
+    projects:          icon-keyboard
     references:        icon-quotes-right
     languages:         icon-bubbles
     skills:            icon-wrench
