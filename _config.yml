@@ -48,6 +48,8 @@ betheredge:
   social:
     github:              benjamin-etheredge
     linkedin:            benjamin-etheredge
+    dockerhub:           etheredgeb
+    wandb:               benjamin-etheredge
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -61,8 +63,8 @@ menu:
     url:               /resume/
   # - title:             Documentation
   #   url:               /docs/
-  - title:            About
-    url:               /about
+  # - title:            About
+  #   url:               /about
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
