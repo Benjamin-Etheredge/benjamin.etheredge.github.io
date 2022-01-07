@@ -208,7 +208,7 @@ download:
   icon: icon-box-add
 wandb:
   name: Weights & Biases
-  icon: icon-wandb-dots-logo
+  icon: icon-wandb-dots-logo1
   prepend: "https://wandb.ai/"
 dockerhub:
   name: Docker Hub
