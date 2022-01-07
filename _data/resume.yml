@@ -232,56 +232,56 @@ education:
 #     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
 #     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 
-projects:
-  - name: Project Gloves
-    description: Experimented with Siamese Networks and Various MLOps tools.
-    highlights:
-      - Built pipeline for data retrieval, cleaning, processing, splitting, model training, and model evaluation.
-      - Built containerized versions of all pipeline stages
-      - Built DVC pipeline for training
-      - Built MLFlow pipeline for training
-      - Added MLFlow logging for training
-      - Added MLFlow model versioning
-    startDate: "2020-08-01"
-    endDate: "2020-08-01"
-    type: "research"
-  - name: Unnammed NLP Application
-    description: TODO
-    highlights:
-      -  TODO
-    startDate: "2021-01-01"
-    endDate: "2021-08-01"
-    entity: "NASA/Datakata"
-    type: "contract"
+# projects:
+#   - name: Project Gloves
+#     description: Experimented with Siamese Networks and Various MLOps tools.
+#     highlights:
+#       - Built pipeline for data retrieval, cleaning, processing, splitting, model training, and model evaluation.
+#       - Built containerized versions of all pipeline stages
+#       - Built DVC pipeline for training
+#       - Built MLFlow pipeline for training
+#       - Added MLFlow logging for training
+#       - Added MLFlow model versioning
+#     startDate: "2020-08-01"
+#     endDate: "2020-08-01"
+#     type: "research"
+#   - name: Unnammed NLP Application
+#     description: TODO
+#     highlights:
+#       -  TODO
+#     startDate: "2021-01-01"
+#     endDate: "2021-08-01"
+#     entity: "NASA/Datakata"
+#     type: "contract"
  
-  - name: Unnammed NLP Application
-    description: TODO
-    highlights:
-      - TODO
-    startDate: "2021-01-01"
-    endDate: "2021-08-01"
-    entity: "NASA/Datakata"
-    type: "contract"
+#   - name: Unnammed NLP Application
+#     description: TODO
+#     highlights:
+#       - TODO
+#     startDate: "2021-01-01"
+#     endDate: "2021-08-01"
+#     entity: "NASA/Datakata"
+#     type: "contract"
 
-  - name: Research Presentation at AIAA 201X
-    description: TODO
-    highlights:
-      - TODO
-    startDate: "2021-01-01"
-    endDate: "2021-08-01"
-    #entity: "NASA/Datakata"
-    #type: "contract"
+#   - name: Research Presentation at AIAA 201X
+#     description: TODO
+#     highlights:
+#       - TODO
+#     startDate: "2021-01-01"
+#     endDate: "2021-08-01"
+#     #entity: "NASA/Datakata"
+#     #type: "contract"
  
   
-  - name: PCP Problem
-    description: Exploring efficiently solving various post correspondence problems
-    highlights:
-      - explored new (or at least new to me) C++ language features
-      - explored ways to organize C++ in more readable ways
-    startDate: "2017-03-17"
-    endDate: "2017-03-19"
-    url: "https://https://github.com/Benjamin-Etheredge/PCP"
-    type: "research"
+#   - name: PCP Problem
+#     description: Exploring efficiently solving various post correspondence problems
+#     highlights:
+#       - explored new (or at least new to me) C++ language features
+#       - explored ways to organize C++ in more readable ways
+#     startDate: "2017-03-17"
+#     endDate: "2017-03-19"
+#     url: "https://https://github.com/Benjamin-Etheredge/PCP"
+#     type: "research"
 
 
 skills:
