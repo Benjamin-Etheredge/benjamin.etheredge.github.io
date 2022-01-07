@@ -184,14 +184,13 @@ volunteer:
 
   - organization: "HSV-AI"
     position: "Organizer/Leader"
-    # website: "https://coderdojo.com/"
+    website: "https://hsv.ai/"
     startDate: "2018-03-01"
     #endDate: "2013-01-01"
     summary: "Helping organize and lead weekly, local AI/ML interest group"
     highlights:
       - "Frequently presenting topics and projects at meetups"
       - "Helping organize competitions and events"
-      - 
 
 education:
   - institution: Georgia Institute of Technology
@@ -243,55 +242,39 @@ projects:
       - Built MLFlow pipeline for training
       - Added MLFlow logging for training
       - Added MLFlow model versioning
-      - 
-      - test
     startDate: "2020-08-01"
     endDate: "2020-08-01"
-    #url: "https://""
     type: "research"
   - name: Unnammed NLP Application
     description: TODO
     highlights:
-      - 
+      -  TODO
     startDate: "2021-01-01"
     endDate: "2021-08-01"
-    #url: "https://""
     entity: "NASA/Datakata"
     type: "contract"
  
   - name: Unnammed NLP Application
     description: TODO
     highlights:
-      - 
+      - TODO
     startDate: "2021-01-01"
     endDate: "2021-08-01"
-    #url: "https://""
     entity: "NASA/Datakata"
     type: "contract"
 
-    # - name: Research Presentation
-    # description: TODO
-    # highlights:
-    #   - 
-    # startDate: "2021-01-01"
-    # endDate: "2021-08-01"
-    # #url: "https://""
-    # entity: "NASA/Datakata"
-    # type: "contract"
- 
-  - name: Presenation at AI
+  - name: Research Presentation at AIAA 201X
     description: TODO
     highlights:
-      - 
+      - TODO
     startDate: "2021-01-01"
     endDate: "2021-08-01"
-    #url: "https://""
-    entity: "NASA/Datakata"
-    type: "consulting"
+    #entity: "NASA/Datakata"
+    #type: "contract"
  
   
   - name: PCP Problem
-    description: Exploring efficiently solving varous post correspondence problems
+    description: Exploring efficiently solving various post correspondence problems
     highlights:
       - explored new (or at least new to me) C++ language features
       - explored ways to organize C++ in more readable ways
