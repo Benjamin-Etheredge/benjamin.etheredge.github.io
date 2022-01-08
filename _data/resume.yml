@@ -9,12 +9,11 @@ basics:
   #phone: "(912) 555-4321"
   website: "https://benjamin.etheredge.ai"
   summary: >
-    I'm from Florence Alabama where I studied Computer Science at the University of North Alabama.
-    I currently serves as a Senior Software Engineer at Trideum in Huntsville, Alabama.
-    I'm also working on finishing out my Master's degree in Computer Science with a focus in machine learning
-    from Georgia Tech.
-    My past roles include Research Engineer at Auburn University, AI/ML Software Engineer at MTSI, and 
-    Software Engineer at the Raytheon.
+    I see myself as a Machine Learning Engineer with a passion for all things computing.
+    I love working on random projects, building my own systems, 
+    hosting my own services, and learning new things.
+    
+    This resume page is a work in progress. For a 1 page highlight resume, click the PDF button below.
 
   location:
     #address: "2712 Broadway St"
@@ -29,12 +28,17 @@ basics:
     - network: "LinkedIn"
       username: "Benjamin-Etheredge"
       url: "https://www.linkedin.com/in/benjamin-etheredge/"
+    - network: "Github"
+      username: "Benjamin-Etheredge"
+      url: "https://www.linkedin.com/in/benjamin-etheredge/"
     - network: "Weights & Biases"
       username: "benjamin-etheredge"
       url: "https://wandb.ai/benjamin-etheredge"
+      icon: "icon-wandb-dots-logo1"
     - network: "Docker Hub"
       username: "etheredgeb"
       url: "https://hub.docker.com/u/etheredgeb"
+      icon: "icon-docker"
 work:
   - company: "Trideum Corporation"
     location: "Huntsville, AL"
@@ -109,6 +113,8 @@ work:
     #   - "Served as the team's code base expert at the test range for the command system"
     #   - "Led independent research and development effort into applications of ML to custom compression"
     #   - "Led effort to optimize CUDA application resulting in a 6x speedup over previous version."
+  
+    # TODO add time tracking project
 
 ##############################################################################
 
@@ -275,8 +281,9 @@ awards:
 #     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 
 projects:
+  # TODO add projects from classes like IHPC and AI Ethics
   - name: Project Gloves
-    description: Experimented with Siamese Networks and Various MLOps tools.
+    description: Experimented with Siamese Networks and Various MLOps tools using the Oxford Pet Dataset.
     highlights:
       - Built pipeline for data retrieval, cleaning, processing, splitting, model training, and model evaluation.
       - Built containerized versions of all pipeline stages
@@ -303,24 +310,58 @@ projects:
 
   - name: Pokegen
     description: Built and trained a model for generated Pokemon (badly)
-    hightlights:
+    highlights:
       - Built multiple variants of autoencoders.
       - Built first full project using PyTorch.
       - Tested out using Github Actions for a CI/CD pipeline with ML.
       - Leverage Iterative's DVC and CML to automatically train and post results on Github.
-    startDate: "2021-05-01"
-    endDate: "2021-05-01"
-    url: "/projects/pokegen"
+    startDate: "2021-08-01"
+    endDate: "2021-10-01"
+    url: "https://benjamin.etheredge.ai/projects/pokegen"
     type: "research"
  
   - name: MLP-Mixer Keras Implementation
-    description: Implemented MLP-Mixer in Keras.
-    summary: Published one of the first implementations of MLP-Mixer in Keras in a python package.
+    description: Published one of the first implementations of MLP-Mixer in Keras in a python package.
     startDate: "2021-05-01"
     endDate: "2021-05-01"
-    url: "/projects/mlp-mixer-keras-implementation"
+    url: "https://benjamin.etheredge.ai/projects/mlp-mixer-keras-implementation"
     type: "research"
- 
+  
+  - name: COVID-19 Data Analysis on Political Learnings
+    description: |
+        Built data analysis project for visualizing the impact of COVID-19 across county lines on political learnings
+        for CSE 6242: Data and Visual Analytics.  
+    highlights:
+        - Built a containerized environment for team to develop in.
+        - Built scripts for recreating all analysis and model training in a container environment for easy reproduction for team and TAs.
+    startDate: "2020-10-01"
+    endDate: "2020-12-01"
+    type: "research"
+  
+  - name: Deep-Q for Atari
+    description: |
+        Implemented variants of Deep-Q in Tensorflow/Keras that solve Atari games.
+    highlights:
+      - Built efficient memory buffer for storing experiences.
+      - Built gray scale image preprocessing.
+      - Built Double DQN.
+      - Built Dueling DQN.
+    startDate: "2019-05-01"
+    endDate: "2019-05-01"
+    url: "https://benjamin.etheredge.ai/projects/deep-q"
+    type: "research"
+
+  - name: Deep-Q for Lunar Lander
+    description:  |
+        Implemented basic Deep-Q in Tensorflow/Keras to solve basic 
+        Lunar Lander problem in OpenAI Gym.
+    highlights:
+      - Got first taste of Deep RL
+      - Got first taste of the problems in Deep RL
+    startDate: "2021-05-01"
+    endDate: "2021-05-01"
+    url: "https://benjamin.etheredge.ai/projects/mlp-mixer-keras-implementation"
+    type: "research"
   
   - name: PCP Problem
     description: Exploring efficiently solving various post correspondence problems
