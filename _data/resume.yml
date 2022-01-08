@@ -46,10 +46,6 @@ work:
     website: "https://www.trideum.com/"
     startDate: "2021-08-16"
     endDate: ""
-    # summary: >
-    #   TODO 
-    #   add 
-    #   summary
     highlights:
       - "Implementing and integrating software systems developed by University teams."
       - "Providing insight and guidance on AI/ML for various teams and projects."
@@ -59,10 +55,6 @@ work:
     website: "https://cws.auburn.edu/ovpr/pm/huntsville"
     startDate: "2020-07-05"
     endDate: "2021-08-16"
-    # summary: >
-    #   TODO 
-    #   add 
-    #   summary
     highlights:
       - "Worked with domain experts to explore applicability of ML to various domains."
       - "Researched, selected, and deployed relevant MLOps tools to fit team and customer needs."
@@ -74,10 +66,6 @@ work:
     website: "https://www.mtsi-va.com/"
     startDate: "2019-04-01"
     endDate: "2020-07-05"
-    # summary: >
-    #   TODO 
-    #   add 
-    #   summary
     highlights:
       - "Provided Army customer with information and updates on emerging AI/ML technologies"
       - "Researched applications and concerns of AI in the domain of airworthiness"
@@ -88,12 +76,6 @@ work:
     website: "https://www.rtx.com/"
     startDate: "2016-11-14"
     endDate: "2019-04-01"
-    # summary: 
-    #     Worked as a software engineer where I got the opportunity to work on a variety of projects
-    #     and gain experience in a variety of technologies. My main 
-    #   TODO 
-    #   add 
-    #   summary
     highlights:
       - "Developed multiple new features for a battle command system using C++, test-driven development, and scrum"
       - "Served as the team's code base expert at the test range for the integration testing of the battle command system"
@@ -103,16 +85,10 @@ work:
   - company: "IPWatch"
     location: "Florence, AL"
     position: "Software Developer"
-    #website: "https://www.rtx.com/"
     startDate: "2014-10-01"
     endDate: "2016-11-14"
     summary: >
       Worked and managed various intellectual property based projects using Python, MySQL, HTML, CSS, JavaScript, and PHP
-    # highlights:
-    #   - "Developed multiple new features for a command system using C++, test-driven development, and scrum"
-    #   - "Served as the team's code base expert at the test range for the command system"
-    #   - "Led independent research and development effort into applications of ML to custom compression"
-    #   - "Led effort to optimize CUDA application resulting in a 6x speedup over previous version."
   
     # TODO add time tracking project
 
