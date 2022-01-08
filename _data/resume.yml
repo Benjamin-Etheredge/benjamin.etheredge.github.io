@@ -31,11 +31,11 @@ basics:
     - network: "Github"
       username: "Benjamin-Etheredge"
       url: "https://www.linkedin.com/in/benjamin-etheredge/"
-    - network: "Weights & Biases"
+    - network: "WandB" # had to shorten to get icon
       username: "benjamin-etheredge"
       url: "https://wandb.ai/benjamin-etheredge"
       icon: "icon-wandb-dots-logo1"
-    - network: "Docker Hub"
+    - network: "DockerHub" # had to shorten to get icon
       username: "etheredgeb"
       url: "https://hub.docker.com/u/etheredgeb"
       icon: "icon-docker"
