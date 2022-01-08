@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?rbtbk9');
-  src:  url('fonts/icomoon.eot?rbtbk9#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?rbtbk9') format('truetype'),
-    url('fonts/icomoon.woff?rbtbk9') format('woff'),
-    url('fonts/icomoon.svg?rbtbk9#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?iki4my');
+  src:  url('fonts/icomoon.eot?iki4my#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?iki4my') format('truetype'),
+    url('fonts/icomoon.woff?iki4my') format('woff'),
+    url('fonts/icomoon.svg?iki4my#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-git:before {
+  content: "\e904";
+  color: #f05032;
+}
+.icon-github1:before {
+  content: "\e905";
+}
+.icon-notion:before {
+  content: "\e906";
+}
 .icon-book:before {
   content: "\e91f";
 }
@@ -214,7 +224,7 @@
 .icon-stumbleupon:before {
   content: "\eace";
 }
-.icon-stackoverflow:before {
+.icon-stackoverflow1:before {
   content: "\ead0";
 }
 .icon-pinterest2:before {
@@ -250,7 +260,7 @@
 .icon-cog:before {
   content: "\e994";
 }
-.icon-power-cord:before {
+.icon-power-cord1:before {
   content: "\e9b7";
 }
 .icon-menu:before {
@@ -320,13 +330,33 @@
   content: "\e900";
   color: #1488c6;
 }
-.icon-git:before {
-  content: "\e904";
-  color: #f05032;
+.icon-keyboard:before {
+  content: "\e955";
 }
-.icon-github1:before {
-  content: "\e905";
+.icon-laptop:before {
+  content: "\e957";
 }
-.icon-notion:before {
-  content: "\e906";
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-power:before {
+  content: "\e9b5";
+}
+.icon-power-cord:before {
+  content: "\e9b8";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-terminal:before {
+  content: "\ea81";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-stackoverflow:before {
+  content: "\ead1";
 }
