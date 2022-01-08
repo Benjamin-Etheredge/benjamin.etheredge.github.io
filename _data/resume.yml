@@ -74,21 +74,24 @@ work:
     highlights:
       - "Provided Army customer with information and updates on emerging AI/ML technologies"
       - "Researched applications and concerns of AI in the domain of airworthiness"
+      
   - company: "Raytheon Technologies (Formally Raytheon)"
     location: "Huntsville, AL"
     position: "Software Engineer I/II"
     website: "https://www.rtx.com/"
     startDate: "2016-11-14"
     endDate: "2019-04-01"
-    # summary: >
+    # summary: 
+    #     Worked as a software engineer where I got the opportunity to work on a variety of projects
+    #     and gain experience in a variety of technologies. My main 
     #   TODO 
     #   add 
     #   summary
     highlights:
-      - "Developed multiple new features for a command system using C++, test-driven development, and scrum"
-      - "Served as the team's code base expert at the test range for the command system"
-      - "Led independent research and development effort into applications of ML to custom compression"
-      - "Led effort to optimize CUDA application resulting in a 6x speedup over previous version."
+      - "Developed multiple new features for a battle command system using C++, test-driven development, and scrum"
+      - "Served as the team's code base expert at the test range for the integration testing of the battle command system"
+      - "Led independent research and development effort into applications of ML to specific compression application"
+      - "Led effort to optimize a CUDA application resulting in a 6x speedup over previous version."
 
   - company: "IPWatch"
     location: "Florence, AL"
@@ -104,36 +107,43 @@ work:
     #   - "Led independent research and development effort into applications of ML to custom compression"
     #   - "Led effort to optimize CUDA application resulting in a 6x speedup over previous version."
 
+##############################################################################
 
 volunteer:
-  - organization: "UNA ACM" 
-    position: "Secretary/Treasurer"
-    # website: "https://coderdojo.com/"
-    startDate: "2015-06-01"
-    endDate: "2016-06-01"
-    summary: "Assisted in the organization of various ACM meetings and events"
-    # highlights:
-    #   - "Ran a interview prep workshop for UNA CS students"
+  - organization: "HSV-AI"
+    position: "Organizer"
+    website: "https://hsv.ai/"
+    startDate: "2018-03-01"
+    #endDate: "2013-01-01"
+    summary: "Helping organize and lead weekly, local AI/ML interest group."
+    highlights:
+      - "Frequently presenting topics and projects at meetups."
+      - "Helping organize competitions and events."
 
-  - organization: "Google Summer of Code" 
+  - organization: "UNA CS Alumni" 
     position: "Mentor"
     # website: "https://coderdojo.com/"
-    startDate: "~2015-05-01"
-    endDate: "2015-06-31"
-    summary: "Helped plan, organize, and run Summer of Code for the Florence, AL Area"
+    startDate: "2020-01-01"
+    #endDate: "2013-01-01"
+    summary: "Serving as a mentor for UNA CS students."
     highlights:
-      - "Got to introduce coding to local kids"
-      - "Got to learn and teach about arduinos"
-      - "Got a cool pair of sunglasses"
+      - "Ran a interview prep workshop for UNA CS students"
 
-  - organization: "Hour of Code" 
-    position: "Mentor"
-    # website: "https://coderdojo.com/"
-    startDate: "~2015-12-01"
-    endDate: "2015--01"
-    summary: "Helped plan, organize, and run Hour of Code for the Florence, AL Area"
+  - organization: "Remote NeurIPS Meetup 2021"
+    position: "Local Organizer"
+    website: "https://hsv.ai/neurips/"
+    startDate: "2021-12-07"
+    endDate: "2021-12-09"
+    summary: "Partnered with NeurIPS to organize a remote meetup for NeurIPS 2021."
     highlights:
-      - "Got to introduce coding to local kids"
+      - "Hosted a presentation from a Auburn University PhD student on his NeurIPS poster session."
+ 
+  - organization: "PyTorchLightning" 
+    position: "Contributor"
+    website: "https://github.com/PyTorchLightning/pytorch-lightning/issues/9620"
+    startDate: "2021-09-21"
+    endDate: "2021-09-21"
+    summary: "Contributed 2 characters to the development of PyTorchLightning."
 
   # - organization: "2019 HudsonAlpha's Tech Challenge"
   #   position: "Mentor"
@@ -147,12 +157,19 @@ volunteer:
     website: "https://hudsonalpha.org/techchallenge/"
     startDate: "2021-03-01"
     endDate: "2021-03-03"
-    summary: "Served as a mentor on software for the HudsonAlpha's Tech Challenge"
+    summary: "Served as a mentor on software for the HudsonAlpha's Tech Challenge."
     highlights:
       - "Served as discord mentor to answer questions on software development and ML model usage."
       - "Ran a live workshop for creating a simple ML model using scikit-learn."
 
-
+  - organization: "Remote NeurIPS Meetup 2019"
+    position: "Local Organizer"
+    startDate: "2019-12-07"
+    endDate: "2019-12-09"
+    summary: "Partnered with NeurIPS to organize a remote meetup for NeurIPS 2019"
+    highlights:
+      - "Partnered with local venue for a physical presence."
+ 
   - organization: "2019 SpaceApps Challenge"
     position: "Competitor"
     website: "https://github.com/Benjamin-Etheredge/SpaceApps2019"
@@ -160,6 +177,14 @@ volunteer:
     endDate: "2019-10-31"
     summary: "Led a small team in learning about data processing and building a simple application"
 
+  - organization: "UNA ACM" 
+    position: "Secretary/Treasurer"
+    # website: "https://coderdojo.com/"
+    startDate: "2015-06-01"
+    endDate: "2016-06-01"
+    summary: "Assisted in the organization of various ACM meetings and events"
+    # highlights:
+    #   - "Ran a interview prep workshop for UNA CS students"
 
   - organization: "2016 International Collegiate Programming Competition (ICPC)"
     position: "Competitor"
@@ -168,7 +193,26 @@ volunteer:
     endDate: "2016-01-31"
     summary: "Competed in the ICPC with 2 fellow students"
 
+  - organization: "Hour of Code" 
+    position: "Mentor"
+    # website: "https://coderdojo.com/"
+    startDate: "~2015-12-01"
+    endDate: "2015-12-31"
+    summary: "Helped plan, organize, and run Hour of Code for the Florence, AL Area"
+    highlights:
+      - "Got to introduce coding to local kids"
 
+
+  - organization: "Google Summer of Code" 
+    position: "Mentor"
+    # website: "https://coderdojo.com/"
+    startDate: "~2015-05-01"
+    endDate: "2015-06-31"
+    summary: "Helped plan, organize, and run Summer of Code for the Florence, AL Area"
+    highlights:
+      - "Got to introduce coding to local kids"
+      - "Got to learn and teach about arduinos"
+      - "Got a cool pair of sunglasses"
   - organization: "2014 International Collegiate Programming Competition (ICPC)"
     position: "Competitor"
     # website: "https://coderdojo.com/"
@@ -176,26 +220,10 @@ volunteer:
     endDate: "2014-01-31"
     summary: "Competed in the ICPC with 2 fellow students"
     highlights:
-      - "Got humbled"
+      - "Got humbled."
+      - "Forgot how the mod operation worked."
 
-  - organization: "UNA CS Alumni" 
-    position: "Mentor"
-    # website: "https://coderdojo.com/"
-    startDate: "2019-01-01"
-    #endDate: "2013-01-01"
-    summary: "Serving as a mentor for UNA CS students"
-    highlights:
-      - "Ran a interview prep workshop for UNA CS students"
 
-  - organization: "HSV-AI"
-    position: "Organizer/Leader"
-    website: "https://hsv.ai/"
-    startDate: "2018-03-01"
-    #endDate: "2013-01-01"
-    summary: "Helping organize and lead weekly, local AI/ML interest group"
-    highlights:
-      - "Frequently presenting topics and projects at meetups"
-      - "Helping organize competitions and events"
 
 education:
   - institution: Georgia Institute of Technology
