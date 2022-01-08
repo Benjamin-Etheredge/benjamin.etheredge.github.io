@@ -14,7 +14,7 @@
         </p>
       {% endif %}
       <h3 class="h4 faded">
-        {% capture name %}<span class="bc">{{ proj.name }}</span>{% endcapture %}
+        {% capture name %}{% include components/link.html title=proj.name href=proj.url span_class="bc" %}{% endcapture %}
         {{ strings.resume.project_title
           | default:"<!--name-->"
           | replace:"<!--name-->", name
