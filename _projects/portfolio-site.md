@@ -19,3 +19,10 @@ I had to tweak the resume icons HTML to include other social media sites like do
 
 ### Google Analytics
 The jekyll framework I chose had built in support for Google Analytics. So I created an account and wired that up. I am sorry for tracking you with it, but my curiosity led me to do so.
+
+
+### Modifications
+The default resume page did not include a projects section when it is supported by the resume schema used.
+My projects are a strong point for me (I hope they are at least). 
+So I added one. It took a bit to figure out the HTML and the yaml config files, but it wasn't too bad.
+
