@@ -12,7 +12,10 @@ sitemap: false
 ---
 
 # Portfolio Site
+I had to dive into the HTML signficantly more than I expected to get things how I wanted them.
+I had to add a project section to the resume as that is where I think I shine.
 
+I had to tweak the resume icons HTML to include other social media sites like dockerhub and wandb.
 
 ### Google Analytics
 The jekyll framework I chose had built in support for Google Analytics. So I created an account and wired that up. I am sorry for tracking you with it, but my curiosity led me to do so.
