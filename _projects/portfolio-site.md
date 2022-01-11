@@ -8,6 +8,10 @@ date: '12-01-2021'
 links:
   - title: This Site
     url: https://benjamin.etheredge.ai
+image: 
+  path: /assets/img/portfolio-site/portfolio_site.png
+  srcset: 
+    1920w: /assets/img/projects/portfolio-site/portfolio_site.png
 sitemap: false
 ---
 

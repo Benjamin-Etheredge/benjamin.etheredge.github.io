@@ -6,7 +6,7 @@ description: >
   This project was for exploring generative algorithms along with MLOps technologies.
 date: '08-01-2021'
 image: 
-  path: /assets/img/blog/kedro-supervised/kedro-pipeline-default-short.svg
+  path: /assets/img/projects/kedro-supervised/kedro-pipeline-default-short.svg
   # srcset: 
   #   1920w: https://raw.githubusercontent.com/quantumblacklabs/kedro/develop/static/img/kedro_banner.png
   # path: https://raw.githubusercontent.com/quantumblacklabs/kedro/develop/static/img/kedro_banner.png
@@ -120,17 +120,17 @@ Pipelines are where I did some wonky stuff.
 I stumbled across reusable pipelines a bit late in my Kedro journey, but they still didn't seem to be much better than what I had already done.
 It might have made my code more reusable, but it's fine.
 
-![kddcup99-decision-tree](/assets/img/blog/kedro-supervised/kedro-pipeline-kddcup99-decision-tree.svg)
+![kddcup99-decision-tree](/assets/img/projects/kedro-supervised/kedro-pipeline-kddcup99-decision-tree.svg)
 Pictured above, short version of pipelines. You probably need to right-click open in another tab or download to see the details. 
 
-![kddcup99](/assets/img/blog/kedro-supervised/kedro-pipeline-kddcup99-short.svg)
+![kddcup99](/assets/img/projects/kedro-supervised/kedro-pipeline-kddcup99-short.svg)
 Short version of kddcup99 pipeline. You probably need to right-click open in another tab or download to see the details. 
 
 
-![Short](/assets/img/blog/kedro-supervised/kedro-pipeline-default-short.svg)
+![Short](/assets/img/projects/kedro-supervised/kedro-pipeline-default-short.svg)
 Pictured above, short version of pipelines. You probably need to right-click open in another tab or download to see the details. 
 
-![Long](/assets/img/blog/kedro-supervised/kedro-pipeline-default.svg)
+![Long](/assets/img/projects/kedro-supervised/kedro-pipeline-default.svg)
 Pictured above, version of pipelines with displayed names. You probably need to right-click open in another tab or download to see the details.
 
 ## My thoughts on Kedro

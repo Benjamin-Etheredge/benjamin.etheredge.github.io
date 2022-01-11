@@ -13,7 +13,7 @@ basics:
     I love working on random projects, building my own systems, 
     hosting my own services, and learning new things.
     
-    This resume page is a work in progress. For a 1 page highlight resume, click the PDF button below.
+    This resume page is a work in progress and is meant to serve as "Master Copy" of all my resume items. For a 1 page highlight resume, click the PDF button below.
 
   location:
     #address: "2712 Broadway St"
@@ -112,7 +112,7 @@ volunteer:
     #endDate: "2013-01-01"
     summary: "Serving as a mentor for UNA CS students."
     highlights:
-      - "Ran a interview prep workshop for UNA CS students"
+      - "Ran a interview prep workshop for UNA CS students (upcoming February 2022)."
 
   - organization: "Remote NeurIPS Meetup 2021"
     position: "Local Organizer"
@@ -226,12 +226,13 @@ education:
     gpa: "3.62"
     courses:
       - "CS 6515: Intro to Graduate Algorithms"
+      - "CS 6457: Video Game Design (In Progress)"
       - "CS 6601: Artificial Intelligence"
       - "CS 6603: AI, Ethics, and Society"
       - "CS 7638: Artificial Intelligence for Robotics"
       - "CS 7641: Machine Learning"
       - "CS 7642: Reinforcement Learning"
-      - "CS 7643: Deep Learning"
+      - "CS 7643: Deep Learning (In Progress)"
       - "CSE 6220: Intro to High-Performance Computing"
       - "CSE 6242: Data and Visual Analytics"
 
@@ -258,6 +259,29 @@ awards:
 
 projects:
   # TODO add projects from classes like IHPC and AI Ethics
+
+  - name: Homelab
+    description: |
+        Building and maintaining a homelab for various projects and uses.
+    highlights:
+      - Custom built multiple computers for homelab use. 
+      - Using Unraid as JBOD storage, NFS file sharing, and service hosting.
+      - Built and used a virtual windows instance as daily driver for personal use and gaming.
+      - Using NGINX container for reverse-proxy for certain services with login protection.
+      - Using LetsEncrypt for SSL certificate management of web accessible services.
+      - Hosing VPN proxy container for any devices on network to be able to route traffic through VPN if desired.
+      - Hosting Nextcloud container as personal cloud file sharing service.
+      - Using CloudBerry container to automatically backup local data to Backblaze B2.
+      - Hosting TeamSpeak 3 server for friends to use.
+      - Hosting multiple Minecraft server containers for friends to use.
+      - Hosting multiple Valhiem server containers for friends to use.
+      - Hosting LanCache container for local caching of game downloads and other files.
+      - Hosting local speed test container for testing local network speeds.
+      - Hosting Vaultwarden service for exploring self-hosted credential management.
+      - Hosting local docker registry container.
+    startDate: "2018-08-01"
+    type: "research"
+
   - name: Project Gloves
     description: Experimented with Siamese Networks and Various MLOps tools using the Oxford Pet Dataset.
     highlights:
@@ -303,9 +327,9 @@ projects:
     url: "https://benjamin.etheredge.ai/projects/mlp-mixer-keras-implementation"
     type: "research"
   
-  - name: COVID-19 Data Analysis on Political Learnings
+  - name: COVID-19 Data Analysis and Visualization Across Counties and Politics
     description: |
-        Built data analysis project for visualizing the impact of COVID-19 across county lines on political learnings
+        Built data analysis project for visualizing the impact of COVID-19 across county lines and political learnings
         for CSE 6242: Data and Visual Analytics.  
     highlights:
         - Built a containerized environment for team to develop in.
@@ -322,7 +346,7 @@ projects:
       - Built gray scale image preprocessing.
       - Built Double DQN.
       - Built Dueling DQN.
-    startDate: "2019-05-01"
+    startDate: "2019-03-01"
     endDate: "2019-05-01"
     url: "https://benjamin.etheredge.ai/projects/deep-q"
     type: "research"
@@ -330,13 +354,12 @@ projects:
   - name: Deep-Q for Lunar Lander
     description:  |
         Implemented basic Deep-Q in Tensorflow/Keras to solve basic 
-        Lunar Lander problem in OpenAI Gym.
+        Lunar Lander problem in OpenAI Gym for CS 7642: Reinforcement Learning.
     highlights:
       - Got first taste of Deep RL
       - Got first taste of the problems in Deep RL
-    startDate: "2021-05-01"
-    endDate: "2021-05-01"
-    url: "https://benjamin.etheredge.ai/projects/mlp-mixer-keras-implementation"
+    startDate: "2018-10-01"
+    endDate: "2018-10-01"
     type: "research"
   
   - name: PCP Problem
@@ -352,8 +375,17 @@ projects:
 
 
 skills:
+  - name: "Programming Languages (ordered by proficiency)"
+    keywords:
+      - Python
+      - C++
+      - C
+      - Java
+      - C#
+      - JavaScript
+      - Perl
+
   - name: "Machine Learning"
-    level: "Expert"
     keywords:
       - "Supervised Learning"
       - "Unsupervised Learning"
@@ -365,14 +397,59 @@ skills:
       - "Representation Learning"
 
   - name: "Reinforcement Learning"
-    level: Expert
     keywords:
       - "Deep-Q Learning (DQN)"
       - "Deep-Q Variants"
       - "Proximal Policy Optimization (PPO)"
-  - name: "Reinforcement Learning"
+
+  - name: Python Libraries
     keywords:
-      - "Deep Learning"
+      - PyTorch
+      - PyTorchLightning
+      - Tensorflow
+      - Keras
+      - WandB
+      - MLFlow
+      - pandas
+      - numpy
+      - matplotlib
+      - scipy
+      - sklearn
+      - scikit-learn
+      - kedro
+      - tensorflow-addons
+      - tensorflow-datasets
+      - jupyter
+      - jupyterlab
+      - hyperopt
+      - OpenAI Gym
+      - OpenAI Baselines
+      - baselines3
+      - streamlit
+      - tensorboard
+      - DVC
+      - Optuna
+
+  - name: Software Development Tools
+    keywords:
+      - Vim
+      - tcsh/bash
+      - Git
+      - Docker
+      - Docker Compose
+      - VSCode
+      - Jupyter
+      - JupyterLab
+      - PyCharm
+      - Unix tools
+      - Linux
+      - GNU Make
+
+  - name: Miscellaneous
+    keywords:
+      - CUDA
+      - Assembly
+
 
 languages:
   - language: "English"

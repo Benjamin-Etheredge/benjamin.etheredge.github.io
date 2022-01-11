@@ -9,11 +9,11 @@ left_column:
   - work
   - volunteer
   - education
-  - awards
   - publications
   - projects
-  - references
 right_column:
+  - awards
+  - references
   - languages
   - skills
   - interests
