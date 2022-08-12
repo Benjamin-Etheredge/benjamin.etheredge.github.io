@@ -127,8 +127,11 @@ volunteer:
     position: "Contributor"
     website: "https://github.com/PyTorchLightning/pytorch-lightning/issues/9620"
     startDate: "2021-09-21"
-    endDate: "2021-09-21"
-    summary: "Contributed 2 characters to the development of PyTorchLightning."
+    endDate: "2022-04-01"
+    summary: "Contributed Minor Fixes to PyTorch Lightning"
+    hightlights:
+      - "Contributed 2 characters to the development of PyTorch Lightning to fix epsilon greedy exploration in Deep-Q code."
+      - "Fixed typo in documentation of backbone unfreezing."
 
   # - organization: "2019 HudsonAlpha's Tech Challenge"
   #   position: "Mentor"
@@ -216,23 +219,24 @@ volunteer:
     highlights:
       - "Got humbled."
       - "Forgot how the mod operation worked."
+      - "Hooked my fiance."
 
 education:
   - institution: Georgia Institute of Technology
     area: "Computer Science with focus in Machine Learning"
     studyType: "Masters"
     startDate: "2018-08-01"
-    endDate: "2022-05-01"
-    gpa: "3.62"
+    endDate: "2022-07-01"
+    gpa: "3.70"
     courses:
       - "CS 6515: Intro to Graduate Algorithms"
-      - "CS 6457: Video Game Design (In Progress)"
+      - "CS 6457: Video Game Design"
       - "CS 6601: Artificial Intelligence"
       - "CS 6603: AI, Ethics, and Society"
       - "CS 7638: Artificial Intelligence for Robotics"
       - "CS 7641: Machine Learning"
       - "CS 7642: Reinforcement Learning"
-      - "CS 7643: Deep Learning (In Progress)"
+      - "CS 7643: Deep Learning"
       - "CSE 6220: Intro to High-Performance Computing"
       - "CSE 6242: Data and Visual Analytics"
 
@@ -241,7 +245,7 @@ education:
     studyType: "Bachelor"
     startDate: "2011-08-01"
     endDate: "2016-05-01"
-    #gpa: "3.62"
+    gpa: "3.09"
     #courses:
       #- "DB1101 - Basic SQL"
       #- "CS2011 - Java Introduction"
@@ -249,7 +253,7 @@ education:
 awards:
   - title: "Secret Security Clearance"
     date: "2017-04-01"
-    awarder: "U.S. Department of Defence"
+    awarder: "U.S. Department of Defense"
 # publications:
 #   - name: "Video compression for 3d media"
 #     publisher: "Hooli"
@@ -257,12 +261,10 @@ awards:
 #     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
 #     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 
+# TODO add projects from classes like IHPC and AI Ethics
 projects:
-  # TODO add projects from classes like IHPC and AI Ethics
-
   - name: Homelab
-    description: |
-        Building and maintaining a homelab for various projects and uses.
+    description: Building and maintaining a homelab for various projects and uses.
     highlights:
       - Custom built multiple computers for homelab use. 
       - Using Unraid as JBOD storage, NFS file sharing, and service hosting.
@@ -276,10 +278,47 @@ projects:
       - Hosting multiple Minecraft server containers for friends to use.
       - Hosting multiple Valhiem server containers for friends to use.
       - Hosting LanCache container for local caching of game downloads and other files.
+      - Hosting PiHole for local DNS, DNS tracking, and DNS limiting.
       - Hosting local speed test container for testing local network speeds.
       - Hosting Vaultwarden service for exploring self-hosted credential management.
       - Hosting local docker registry container.
     startDate: "2018-08-01"
+    type: "research"
+
+  - name: Hateful Memes Classification Project
+    description: |
+        Developed Hateful Memes classification project for CS 7643: Deep Learning that exceeded the first published baseline.
+    highlights:
+      - Worked with a team with diverse skills.
+      - Developed an ensemble model leveraging pre-trained LSTMs, ResNets, ViTs, etc.  
+      - Developed automated training through git commits/pushes.
+      - Lead team MLOps/DevOps/GitOps efforts.
+      - Taught team to use centralized logging for training through Weights & Bias.
+      - Taught team to build and use a reproducible training pipeline.
+      - Taught team to track intermediate results for reproducibility. 
+      - Used my personal homelab for artifact tracking and main model training through GitOps.
+      - Achieved an testing AUROC score of 0.7396 (initial baseline was 0.7141 but SOTA was 0.8450)
+      - Humbled by how hard state-of-the-art custom implementations are to replicate.  
+      - "Final results: https://wandb.ai/meme-team/super_model/runs/1jem9xig"
+    startDate: "2019-03-01"
+    endDate: "2019-05-01"
+    url: "https://github.com/Benjamin-Etheredge/hateful_memes"
+    type: "research"
+
+  - name: NeurIPS 2021 AWS DeepRacer AI Driving Olympics Challenge
+    description: |
+        Placed 6th and 11th in NeurIPS 2021 AIcrowd hosted DeepRacer Challenge 
+    highlights:
+      - Placed 6th in Round 1 (Sim).
+      - Placed 11th in Round 2 (Real).
+      - Lead HSV-AI (local AI interest group) team in AIcrowd challenge.
+      - Taught other members of HSV-AI about RL.
+      - Got to play with Sim2Real stuff.
+      - Built agent with Stable Baselines 3.
+      - Learned about using stereoscopic video.
+    startDate: "2021-10-01"
+    endDate: "2021-11-30"
+    url: "https://www.aicrowd.com/challenges/neurips-2021-aws-deepracer-ai-driving-olympics-challenge"
     type: "research"
 
   - name: Project Gloves
@@ -308,25 +347,77 @@ projects:
     entity: "NASA"
     type: "contract"
 
+  - name: Pokemon Battler
+    description: Built and trained a model to battle in singles Pokemon matches
+    highlights:
+      - Built basic RL agent and networks to operate on a gym-like Pokemon environment.
+      - Helped extend third-party Pokemon battling gym interface.
+      - Learned Stable baselines 3
+      - Got first taste of multi-agent RL.
+      - Learned how to hack in multi-agent RL to a gym environment. 
+    startDate: "2021-10-01"
+    # endDate: "2021-12-01"
+    url: "https://github.com/Etheredge-Works/pokemon-battler"
+    type: "research"
+ 
   - name: Pokegen
     description: Built and trained a model for generated Pokemon (badly)
     highlights:
       - Built multiple variants of autoencoders.
+      - Experimented with pre-built GANs.
       - Built first full project using PyTorch.
       - Tested out using Github Actions for a CI/CD pipeline with ML.
       - Leverage Iterative's DVC and CML to automatically train and post results on Github.
+      - Learned how hard it is to overcome data limitations.
     startDate: "2021-08-01"
-    endDate: "2021-10-01"
+    # endDate: "2022-7-01"
     url: "https://benjamin.etheredge.ai/projects/pokegen"
-    type: "research"
+    # type: "research"
  
   - name: MLP-Mixer Keras Implementation
     description: Published one of the first implementations of MLP-Mixer in Keras in a python package.
+    highlights:
+      - Learned about MLP-Mixer
+      - Learned about publishing a python package.
     startDate: "2021-05-01"
     endDate: "2021-05-01"
-    url: "https://benjamin.etheredge.ai/projects/mlp-mixer-keras-implementation"
+    url: "https://pypi.org/project/mlp-mixer-keras/"
     type: "research"
-  
+
+  - name: TreMap
+    description: Built Streamlit visualization app for plant pressings over the course of 36 hours
+    highlights:
+       - Built app to hackathon spec.
+       - Got more comfortable with Streamlit.
+       - Learned about pressings data and iNat dataset.
+    startDate: "2022-06-01"
+    endDate: "2022-05-01"
+    url: "https://huggingface.co/spaces/betheredge/air-vibrations"
+    type: "research" 
+
+  - name: Crash Corpse Video Game
+    description: |
+        Developed video game for CS 6457: Video Game Design
+    highlights:
+      - Worked with a team of diverse skills.
+      - Learned a lot about game development.
+      - Developed a complete game.
+    startDate: "2022-01-01"
+    endDate: "2022-05-01"
+    url: "https://github.com/Team-Sea-Sharp/prototype"
+    type: "research"
+
+  - name: Air Vibrations
+    description: |
+        Developed speech transcription system using Huggingface pipelines and Gradio.
+    highlights:
+      - Learned more about hugging face pipelines
+      - Learned more about Gradio interfaces.
+    startDate: "2022-07-01"
+    endDate: "2022-08-01"
+    url: "https://huggingface.co/spaces/betheredge/air-vibrations"
+    type: "research"
+
   - name: COVID-19 Data Analysis and Visualization Across Counties and Politics
     description: |
         Built data analysis project for visualizing the impact of COVID-19 across county lines and political learnings
