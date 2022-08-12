@@ -3,7 +3,7 @@ layout: project
 title: 'Project Gloves'
 caption: Exploring Self-Supervised Learning and MLOps
 description: >
-  This project was for exploring generative algorithms along with MLOps technologies.
+  This project was for exploring siamese network algorithms along with MLOps technologies.
 date: '01-01-2021'
 image: 
   path: /assets/img/projects/mittens_1.jpg
@@ -22,7 +22,11 @@ sitemap: false
 # Project Gloves
 
 ## Links to Weights & Biases metrics
+[Training of siamese networks](https://wandb.ai/benjamin-etheredge/gloves)
 
+[Oxford Pet Classification with different encoders](https://wandb.ai/benjamin-etheredge/gloves-classifier)
+
+<!-- 
 [Training of siamese network with L1 distance layer](https://wandb.ai/benjamin-etheredge/gloves-l1-distance)
 
 [Training of siamese network with L2 distance layer](https://wandb.ai/benjamin-etheredge/gloves-l2-distance)
@@ -38,7 +42,7 @@ sitemap: false
 [Oxford Pet Classification with imagenet base with feature extraction frozen](https://wandb.ai/benjamin-etheredge/gloves-classifier-imagenet-frozen)
 
 [Oxford Pet Classification with imagenet base with feature extractor unfrozen](https://wandb.ai/benjamin-etheredge/gloves-classifier-imagenet-unfrozen)
-
+-->
 The original goal of the project was simple: Create a facial recognition system
 for my pets. 
 
@@ -63,6 +67,10 @@ I use [DVC](https://dvc.org) to drive and glue together the various stages.
 DVC allows me to cache stages and not rerun them if the designated dependent files do not change.
 It also serves as an alternative to git-lfs for pushing large files to remote storage. 
 I use minIO as the endpoint for DVC to push my large files to.
+
+DISCLAIMER: I know these stages are not the best way to organize a project. 
+They were built to learning pipelining. In hyperparameter tuning, it all gets recorded
+to a single project.
 
 Below is a DAG of the project produced by DVC.
 
@@ -186,6 +194,24 @@ No more having my mixed precision models brick CPU performance on inference.
 It is just not worth the trouble for me.
 
 
+#### Various Issues
+
+I let tensorflow do the caching of the nway dataset. That appears to have been a mistake.
+It tried putting the whole thing in RAM leading to 50GB to 100GB RAM requirement.
+This SLAMMED the cache of some of my machines.
+I eventually gave up and reduced the nway from 32 to 24. This gives me less accurate testing,
+but significantly reduced the RAM requirement.
+
+#### Gripes
+
+Too many duplicates of data. 
+Could not cache the data.
+I guess if the process is consistent (name for this) then it should be ez reproducable. 
+I'm not sure my pipelines are consistent.
+They should be, but I"m not confident
+I'm also too lazy to fully verify.
+Yes, i know it wouldn't be that hard.
+
 ## Future Work
 I want to implement triplet loss to see how it performs.
 
@@ -199,6 +225,9 @@ I want them to simply hit an API endpoint that hosts the models.
 While I've built this numerous times, I didn't want to rebuild the GUI's just yet.
 
 Explore benchmarking models with mixed precision vs TF32.
+
+Explore weighting based on label frequency. There's a slight imbalance in normal labels. 
+Adding my own pets in as categories added significantly more imbalance. 
 
 
 ### Technologies Used
