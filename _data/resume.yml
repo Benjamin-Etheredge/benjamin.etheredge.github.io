@@ -300,8 +300,8 @@ projects:
       - Achieved an testing AUROC score of 0.7396 (initial baseline was 0.7141 but SOTA was 0.8450)
       - Humbled by how hard state-of-the-art custom implementations are to replicate.  
       - "Final results: https://wandb.ai/meme-team/super_model/runs/1jem9xig"
-    startDate: "2019-03-01"
-    endDate: "2019-05-01"
+    startDate: "2022-02-01"
+    endDate: "2022-05-01"
     url: "https://github.com/Benjamin-Etheredge/hateful_memes"
     type: "research"
 
@@ -387,25 +387,25 @@ projects:
   - name: TreMap
     description: Built Streamlit visualization app for plant pressings over the course of 36 hours
     highlights:
-       - Built app to hackathon spec.
+       - Built a working app to hackathon spec.
        - Got more comfortable with Streamlit.
        - Learned about pressings data and iNat dataset.
     startDate: "2022-06-01"
-    endDate: "2022-05-01"
-    url: "https://huggingface.co/spaces/betheredge/air-vibrations"
+    endDate: "2022-06-01"
+    url: "https://tremap.etheredge.dev"
     type: "research" 
 
   - name: Crash Corpse Video Game
     description: |
-        Developed video game for CS 6457: Video Game Design
+        Developed complete video game over entire semester for CS 6457: Video Game Design
     highlights:
       - Worked with a team of diverse skills.
       - Learned a lot about game development.
       - Developed a complete game.
     startDate: "2022-01-01"
     endDate: "2022-05-01"
-    url: "https://github.com/Team-Sea-Sharp/prototype"
-    type: "research"
+    url: "https://youtu.be/J5YGwlywuHM"
+    type: "school"
 
   - name: Air Vibrations
     description: |
