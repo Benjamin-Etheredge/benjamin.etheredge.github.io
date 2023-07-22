@@ -9,26 +9,22 @@ image:
   path: /assets/img/projects/gloves/mittens_1.jpg
   srcset: 
     1920w: /assets/img/projects/gloves/mittens_1.jpg
-    
-    #960w:  /assets/img/projects/hydejack-site@0,5x.jpg
-    #480w:  /assets/img/projects/hydejack-site@0,25x.jpg
 links:
   - title: Github
     url: https://github.com/Benjamin-Etheredge/gloves
   - title: WandB
     url: https://wandb.ai/benjamin-etheredge/gloves
-    
 sitemap: false
 ---
 
 # Project Gloves
 
 ## Links to Weights & Biases metrics
+
 [Training of siamese networks](https://wandb.ai/benjamin-etheredge/gloves)
 
 [Oxford Pet Classification with different encoders](https://wandb.ai/benjamin-etheredge/gloves-classifier)
 
-<!-- 
 [Training of siamese network with L1 distance layer](https://wandb.ai/benjamin-etheredge/gloves-l1-distance)
 
 [Training of siamese network with L2 distance layer](https://wandb.ai/benjamin-etheredge/gloves-l2-distance)
@@ -44,7 +40,7 @@ sitemap: false
 [Oxford Pet Classification with imagenet base with feature extraction frozen](https://wandb.ai/benjamin-etheredge/gloves-classifier-imagenet-frozen)
 
 [Oxford Pet Classification with imagenet base with feature extractor unfrozen](https://wandb.ai/benjamin-etheredge/gloves-classifier-imagenet-unfrozen)
--->
+
 The original goal of the project was simple: Create a facial recognition system
 for my pets. 
 
