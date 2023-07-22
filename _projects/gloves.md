@@ -6,7 +6,7 @@ description: >
   This project was for exploring siamese network algorithms along with MLOps technologies.
 date: '01-01-2021'
 image: 
-  path: /assets/img/projects/mittens_1.jpg
+  path: /assets/img/projects/gloves/mittens_1.jpg
   srcset: 
     1920w: /assets/img/projects/gloves/mittens_1.jpg
     
