@@ -5,10 +5,10 @@ caption: Generating Pokemon with different Machine Learning Methods
 description: >
   This project was for exploring generative algorithms along with MLOps technologies.
 date: '08-01-2021'
-# image: 
-#   path: /assets/img/projects/hydejack-site.jpg
-#   srcset: 
-#     1920w: /assets/img/projects/hydejack-site.jpg
+image: 
+  path: /assets/img/projects/pokegen/example1.png
+  srcset: 
+    1920w: /assets/img/projects/pokegen/example1.png
 #     960w:  /assets/img/projects/hydejack-site@0,5x.jpg
 #     480w:  /assets/img/projects/hydejack-site@0,25x.jpg
 links:
@@ -43,7 +43,7 @@ I did okay here. I explored regular auto encoders and variational.
 I never did get great results out of them. 
 
 ## Future Work
-The most obvious thing to mention here is to move on to generative adversarial networks. I got too into auto encoders as
+The most obvious thing to mention here is to move on to generative adversarial networks. I got too into autoencoders as
 they are one of my favorite network architectures. It was too fun to explore them. 
 
 Switch to using pytroch lightning. This project was started before I became familiar with the lightning framework. 

@@ -6,6 +6,8 @@ description: >
   Documenenting my experiences, skills, and projects.
 date: '12-01-2021'
 links:
+  - title: Github
+    url: https://github.com/Benjamin-Etheredge/benjamin.etheredge.github.io
   - title: This Site
     url: https://benjamin.etheredge.ai
 image: 
