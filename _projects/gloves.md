@@ -18,6 +18,8 @@ sitemap: false
 ---
 
 # Project Gloves
+This page is bugged when building through github pages. The content below the first links will not show.
+I have no idea why. It works fine locally and on my server. Still testing
 
 ## Links to Weights & Biases metrics
 
