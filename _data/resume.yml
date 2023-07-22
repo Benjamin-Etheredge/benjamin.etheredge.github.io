@@ -104,6 +104,7 @@ volunteer:
     highlights:
       - "Frequently presenting topics and projects at meetups."
       - "Helping organize competitions and events."
+      - "Mentoring high school and college teams in local coding competitions."
 
   - organization: "UNA CS Alumni" 
     position: "Mentor"
@@ -129,16 +130,15 @@ volunteer:
     startDate: "2021-09-21"
     endDate: "2022-04-01"
     summary: "Contributed Minor Fixes to PyTorch Lightning"
-    hightlights:
+    highlights:
       - "Contributed 2 characters to the development of PyTorch Lightning to fix epsilon greedy exploration in Deep-Q code."
       - "Fixed typo in documentation of backbone unfreezing."
 
-  # - organization: "2019 HudsonAlpha's Tech Challenge"
-  #   position: "Mentor"
-  #   # website: "https://coderdojo.com/"
-  #   startDate: "2019-03-01"
-  #   endDate: "2019-03-03"
-  #   summary: "Served as a mentor on software for the HudsonAlpha's Tech Challenge"
+  - organization: "2019 HudsonAlpha's Tech Challenge"
+    position: "Mentor"
+    startDate: "2019-03-01"
+    endDate: "2019-03-03"
+    summary: "Served as a mentor on software for the HudsonAlpha's Tech Challenge"
 
   - organization: "2021 HudsonAlpha's Tech Challenge"
     position: "Mentor"
@@ -297,7 +297,7 @@ projects:
       - Taught team to build and use a reproducible training pipeline.
       - Taught team to track intermediate results for reproducibility. 
       - Used my personal homelab for artifact tracking and main model training through GitOps.
-      - Achieved an testing AUROC score of 0.7396 (initial baseline was 0.7141 but SOTA was 0.8450)
+      - Achieved an testing AUROC score of 0.7396 (initial baseline was 0.7141 but SOTA was 0.8450).
       - Humbled by how hard state-of-the-art custom implementations are to replicate.  
       - "Final results: https://wandb.ai/meme-team/super_model/runs/1jem9xig"
     startDate: "2022-02-01"
@@ -325,11 +325,11 @@ projects:
     description: Experimented with Siamese Networks and Various MLOps tools using the Oxford Pet Dataset.
     highlights:
       - Built pipeline for data retrieval, cleaning, processing, splitting, model training, and model evaluation.
-      - Built containerized versions of all pipeline stages
-      - Built DVC pipeline for training
-      - Built MLFlow pipeline for training
-      - Added MLFlow logging for training
-      - Added MLFlow model versioning
+      - Built containerized versions of all pipeline stages.
+      - Built DVC pipeline for training.
+      - Built MLFlow pipeline for training.
+      - Added MLFlow logging for training.
+      - Added MLFlow model versioning.
     startDate: "2020-08-01"
     #endDate: "2020-08-01"
     type: "research"
@@ -363,12 +363,13 @@ projects:
   - name: Pokegen
     description: Built and trained a model for generated Pokemon (badly)
     highlights:
-      - Built multiple variants of autoencoders.
+      - Built multiple variants of autoencoders for generative purposes.
       - Experimented with pre-built GANs.
       - Built first full project using PyTorch.
       - Tested out using Github Actions for a CI/CD pipeline with ML.
       - Leverage Iterative's DVC and CML to automatically train and post results on Github.
       - Learned how hard it is to overcome data limitations.
+      - Leveraged multiple "tricks" to attempt to get GANs to work on limited data.
     startDate: "2021-08-01"
     # endDate: "2022-7-01"
     url: "https://benjamin.etheredge.ai/projects/pokegen"
@@ -377,12 +378,23 @@ projects:
   - name: MLP-Mixer Keras Implementation
     description: Published one of the first implementations of MLP-Mixer in Keras in a python package.
     highlights:
-      - Learned about MLP-Mixer
+      - Learned about MLP-Mixer.
       - Learned about publishing a python package.
     startDate: "2021-05-01"
     endDate: "2021-05-01"
     url: "https://pypi.org/project/mlp-mixer-keras/"
     type: "research"
+
+  - name: Neural Search
+    description: Built neural search engine for NASA documents for SpaceApps 2022 challenge
+    highlights:
+       - Built a working app to hackathon spec.
+       - Learned SBERT and sentence-transformers library. 
+       - Learned about semantic search.
+    startDate: "2022-06-01"
+    endDate: "2022-06-01"
+    url: "https://github.com/HSV-AI/spaceapps2022"
+    type: "research" 
 
   - name: TreMap
     description: Built Streamlit visualization app for plant pressings over the course of 36 hours
@@ -390,6 +402,7 @@ projects:
        - Built a working app to hackathon spec.
        - Got more comfortable with Streamlit.
        - Learned about pressings data and iNat dataset.
+       - "Repo: https://github.com/Etheredge-Works/tremap"
     startDate: "2022-06-01"
     endDate: "2022-06-01"
     url: "https://tremap.etheredge.dev"
