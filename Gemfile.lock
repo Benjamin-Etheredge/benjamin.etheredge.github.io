@@ -282,8 +282,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.8)
+  jekyll-avatar
   jekyll-compose
   jekyll-include-cache
 
 BUNDLED WITH
-   2.3.3
+   2.4.17

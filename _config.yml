@@ -43,6 +43,8 @@ logo:                  /assets/img/low-res-turt.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 betheredge:
   # Used by `jekyll-feed`:
+  # picture: 
+    # path: /assets/img/me.jpg
   name:                Benjamin Etheredge
   email:               benjamin.etheredge@gmail.com
   social:
@@ -55,14 +57,14 @@ betheredge:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
+  # - title:             Blog
+    # url:               /blog/
   - title:             Projects
     url:               /projects/
   - title:             Résumé
     url:               /resume/
   # - title:             Documentation
-  #   url:               /docs/
+    # url:               /docs/
   - title:            About
     url:               /about
 

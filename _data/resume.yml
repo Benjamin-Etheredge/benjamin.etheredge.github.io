@@ -4,7 +4,8 @@
 basics:
   name: "Benjamin D. Etheredge"
   label: "Machine Learning Engineer"
-  picture: "https://media-exp1.licdn.com/dms/image/C4E03AQH9h5732FCbhg/profile-displayphoto-shrink_400_400/0/1517455755375?e=1646870400&v=beta&t=sPp6X49UogfHuAsbLiWqOSFK2doFX5rHpPYtWBOiwOc"
+  # picture: "https://media-exp1.licdn.com/dms/image/C4E03AQH9h5732FCbhg/profile-displayphoto-shrink_400_400/0/1517455755375?e=1646870400&v=beta&t=sPp6X49UogfHuAsbLiWqOSFK2doFX5rHpPYtWBOiwOc"
+  picture: "/assets/img/me.jpg"
   email: "Benjamin.Etheredge@gmail.com"
   #phone: "(912) 555-4321"
   website: "https://benjamin.etheredge.ai"
@@ -49,10 +50,12 @@ work:
     highlights:
       - "Implementing and integrating software systems developed by University teams."
       - "Providing insight and guidance on AI/ML for various teams and projects."
+      - "Developing anomaly detection for networking tools."
+      - "Developing and deploying ML models for various projects."
   - company: "Auburn University / Davidson Technologies"
     location: "Huntsville, AL"
     position: "Research Engineer"
-    website: "https://cws.auburn.edu/ovpr/pm/huntsville"
+    website: "https://eng.auburn.edu/about/facilities/auburn-university-research-innovation-campus"
     startDate: "2020-07-05"
     endDate: "2021-08-16"
     highlights:
@@ -282,6 +285,7 @@ projects:
       - Hosting local speed test container for testing local network speeds.
       - Hosting Vaultwarden service for exploring self-hosted credential management.
       - Hosting local docker registry container.
+      - Hosting PyPi caching registry.
     startDate: "2018-08-01"
     type: "research"
 
@@ -323,6 +327,7 @@ projects:
 
   - name: Project Gloves
     description: Experimented with Siamese Networks and Various MLOps tools using the Oxford Pet Dataset.
+    url: "https://benjamin.etheredge.ai/projects/gloves"
     highlights:
       - Built pipeline for data retrieval, cleaning, processing, splitting, model training, and model evaluation.
       - Built containerized versions of all pipeline stages.
@@ -392,8 +397,8 @@ projects:
        - Learned SBERT and sentence-transformers library. 
        - Learned about semantic search.
     startDate: "2022-06-01"
-    endDate: "2022-06-01"
-    url: "https://github.com/HSV-AI/spaceapps2022"
+    endDate: "2022-06-03"
+    url: "https://benjamin.etheredge.ai/projects/semantic"
     type: "research" 
 
   - name: TreMap
@@ -405,7 +410,7 @@ projects:
        - "Repo: https://github.com/Etheredge-Works/tremap"
     startDate: "2022-06-01"
     endDate: "2022-06-01"
-    url: "https://tremap.etheredge.dev"
+    url: "https://benjamin.etheredge.ai/projects/tremap"
     type: "research" 
 
   - name: Crash Corpse Video Game
