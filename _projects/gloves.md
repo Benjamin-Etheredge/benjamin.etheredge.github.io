@@ -12,7 +12,7 @@ image:
 links:
   - title: Github
     url: https://github.com/Benjamin-Etheredge/gloves
-  - title: WandB
+  - title: Weights & Biases
     url: https://wandb.ai/benjamin-etheredge/gloves
 sitemap: false
 ---

@@ -13,11 +13,11 @@ image:
     
     #960w:  /assets/img/projects/hydejack-site@0,5x.jpg
     #480w:  /assets/img/projects/hydejack-site@0,25x.jpg
-#/links:
-#   - title: Github
-#     url: https://github.com/Etheredge-Works/poke-battler
-#   - title: Weights & Biases
-#     url: https://hydejack.com/
+links:
+  - title: Github
+    url: https://github.com/Etheredge-Works/pokemon-battler
+  - title: Weights & Biases
+    url: https://wandb.ai/benjamin-etheredge/pokemon-battler
     
 sitemap: false
 ---

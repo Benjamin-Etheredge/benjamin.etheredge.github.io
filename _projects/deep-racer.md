@@ -20,6 +20,9 @@ links:
     url: https://www.aicrowd.com/challenges/neurips-2021-aws-deepracer-ai-driving-olympics-challenge
   - title: Leaderboards
     url: https://www.aicrowd.com/challenges/neurips-2021-aws-deepracer-ai-driving-olympics-challenge/leaderboards?challenge_round_id=1007
+  - title: Weights & Biases
+    url: https://wandb.ai/benjamin-etheredge/racer
+sitemap: false
 sitemap: false
 ---
 
